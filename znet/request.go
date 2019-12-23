@@ -1,6 +1,6 @@
 package znet
 
-import "zinx/ziface"
+import "github.com/lihuicms-code-rep/zinx/ziface"
 
 type Request struct {
 	//与客户端连接

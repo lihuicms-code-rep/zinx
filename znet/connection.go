@@ -6,8 +6,8 @@ import (
 	"io"
 	"net"
 	"sync"
-	"zinx/utils"
-	"zinx/ziface"
+	"github.com/lihuicms-code-rep/zinx/utils"
+	"github.com/lihuicms-code-rep/zinx/ziface"
 )
 
 //连接模块抽象层的实现

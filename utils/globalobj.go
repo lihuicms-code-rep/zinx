@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
-	"zinx/ziface"
+	"github.com/lihuicms-code-rep/zinx/ziface"
 )
 
 //存储一切有关zinx的全局参数

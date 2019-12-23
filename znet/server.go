@@ -3,8 +3,8 @@ package znet
 import (
 	"fmt"
 	"net"
-	"zinx/utils"
-	"zinx/ziface"
+	"github.com/lihuicms-code-rep/zinx/utils"
+	"github.com/lihuicms-code-rep/zinx/ziface"
 )
 
 //iServer接口类的实现

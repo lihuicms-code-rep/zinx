@@ -1,6 +1,6 @@
 package znet
 
-import "zinx/ziface"
+import "github.com/lihuicms-code-rep/zinx/ziface"
 
 //实现router时,先嵌入BaseRouter基类, 然后对这个基类的方法进行实现
 //BaseRouter已经把IRouter已经实现了
