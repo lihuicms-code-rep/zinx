@@ -20,7 +20,7 @@ type Server struct {
 }
 
 //初始化Sever模块
-func NewServer(name string) ziface.IServer {
+func NewServer() ziface.IServer {
 	return &Server{
 		Name:       utils.GlobalObject.Name,
 		IPVersion:  utils.GlobalObject.IPVersion,
@@ -99,7 +99,6 @@ func (s *Server) serverLogic() {
 		return
 	}
 
-	fmt.Println("[Success] start zinx server  ", s.Name, " success, now listening version ", utils.GlobalObject.Version)
 	var cid uint32
 
 	//3.阻塞的等待客户端进行连接,处理连接业务(读写)
