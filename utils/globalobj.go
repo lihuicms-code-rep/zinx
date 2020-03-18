@@ -43,11 +43,11 @@ func init() {
 }
 
 //加载配置文件数据
-//目前处理的时候,ReadFile的路径是具体应用所在目录的res/server.json来传递
+//目前处理的时候,ReadFile的路径是具体应用所在目录的res/tcpserver.json来传递
 func (g *GlobalObj) Reload() {
-	data, err := ioutil.ReadFile("res/server.json")
+	data, err := ioutil.ReadFile("res/tcpserver.json")
 	if err != nil {
-		fmt.Println("read res/server.json error ", err)
+		fmt.Println("read res/tcpserver.json error ", err)
 		return
 	}
 
